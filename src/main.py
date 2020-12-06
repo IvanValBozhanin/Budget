@@ -1,5 +1,5 @@
-import budget
-from budget import create_spend_chart
+from src import budget
+from src.budget import create_spend_chart
 from unittest import main
 
 food = budget.Category("Food")
